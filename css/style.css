@@ -1,0 +1,100 @@
+.mg {
+    margin-left: 15px;
+}
+
+.text {
+    margin-top: 360px;
+}
+
+.image {
+    margin-top: 250px;
+}
+
+.spaces {
+    line-height: 2.3rem !important;
+}
+
+.upper-space {
+    margin-top: 30px;
+}
+
+.mg-top {
+    margin-top: 80px;
+}
+
+.font {
+    font-size: 38px;
+}
+
+.fonts {
+    font-size: 30px;
+}
+
+.image-2 {
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #55595c;
+}
+
+.link:hover {
+    color: #ff1700;
+}
+
+.hoverlink-1 :hover {
+    /* box-shadow: white rgba(0, 0, 0, 0.2); */
+    color: #ff1700;
+}
+
+
+/* About us */
+
+.text-space {
+    margin-top: 150px;
+}
+
+
+/* services */
+
+.font-sz {
+    font-size: 45px;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        margin-top: 0;
+    }
+    .text {
+        text-align: center;
+    }
+    .mg {
+        width: 150px;
+        margin-left: 0;
+    }
+    .text {
+        margin-top: 160px;
+    }
+    .image {
+        margin-top: 20px;
+    }
+    .mg-top {
+        margin-top: 20px;
+    }
+    .font {
+        font-size: 20px;
+    }
+    .fonts {
+        font-size: 20px;
+    }
+    .image-2 {
+        margin-top: 0px;
+    }
+    .break {
+        display: none;
+    }
+    .font-sz {
+        font-size: 28px;
+    }
+}
