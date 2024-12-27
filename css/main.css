@@ -1,0 +1,33 @@
+.animate {
+    animation: slide 10s ease-in-out 1s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(-20px);
+    }
+    66% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mg {
+    margin: 0 30px;
+}
+
+.login-bg {
+    background-color: pink;
+    height: 100vh;
+}
+
+@media only screen and (max-width:768px) {
+    .mg {
+        margin: 0 10px;
+    }
+}

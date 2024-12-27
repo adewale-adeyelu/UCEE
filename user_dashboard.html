@@ -5,38 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome-UCEE MFB</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-
-            <div class="col-md-6 text-center" style="margin-top: 150px;">
-                <!-- <div style="background-color: #fbfbfb;" style="padding: 300px 10px;"> -->
-                <h5 style="color: #333333;">Login</h5>
-                <p style="color: #333333;">To Login Enter Your Details</p>
-                <div class="card">
-                    <div class="card-body" style="line-height: 4rem;">
+            <div class="col-md-5" style="margin-top: 130px;">
+                <h5 class="text-center">Login</h5>
+                <div class="card shadow mg" style="border-radius: 20px; border: 1px solid rgb(229, 231, 235)">
+                    <div class="card-body">
+                        <p class="text-center">To login enter your details</p>
                         <form>
-                            <label for="email" class="form-label" style="font-size: 18px;" style="color: #333333;">
-                                <input type="email" name="email" class="form-control" style="color: #333333;" placeholder="adewale7@gmail.com" required>
-                            </label>
-
+                            <label for="email">Email</label>
                             <br>
-                            <label for="password" class="form-label" style="font-size: 18px;" style="color: #333333;">
-                                <input name="password" type="password" class="form-control" style="color: #333333;" placeholder="password" required>
-                            </label>
+                            <input type="email " class="form-control" name="email " id="email " placeholder="adeyelu@gmail.com" style="border-radius: 10px;">
                             <br>
+                            <label for="password ">Password</label>
+                            <br>
+                            <input type="password" class="form-control " name="password " id="password" style="border-radius: 10px;">
+                            <br><br>
                         </form>
-                        <button type="submit" class="px-5" style="background-color: #e61704; border-radius: 5px; color: #fff;">Continue</button>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" style="background-color: rgb(207, 23, 54); color: #fff; padding: 5px 100px; border-radius: 15px;">Continue</button>
+                        </div>
+                        <br>
+                        <p class="text-center">Forget password?
+                            <a href="#" style="color: #e61704;">Click Here</a>
+                        </p>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-lg-7 text-center d-none d-md-block login-bg">
+                <img class="animate" style="margin-top: 80px;" src="img/lotus-man-f02ecddf.svg" alt="banking" style="max-width: 30%;">
             </div>
         </div>
     </div>
 </body>
+
+</html>
 
 </html>
