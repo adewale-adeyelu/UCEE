@@ -49,6 +49,10 @@ html {
     color: #ff1700;
 }
 
+.bg-color {
+    padding: 70px;
+}
+
 
 /* About us */
 
@@ -93,7 +97,7 @@ html {
         font-size: 20px;
     }
     .fonts {
-        font-size: 20px;
+        font-size: 18px;
     }
     .image-2 {
         margin-top: 0px;
@@ -102,6 +106,9 @@ html {
         display: none;
     }
     .font-sz {
-        font-size: 23px;
+        font-size: 22px;
+    }
+    .bg-color {
+        padding: 50px 40px;
     }
 }
